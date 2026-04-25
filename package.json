@@ -1,0 +1,27 @@
+{
+  "name": "first-agent",
+  "version": "1.0.0",
+  "description": "YouTube note-taking agent harness with Ollama",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsx src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "ai": "^6.0.168",
+    "@ai-sdk/openai": "^3.0.0",
+    "youtube-transcript": "^1.3.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.39",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
